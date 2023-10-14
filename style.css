@@ -74,10 +74,14 @@ body > a {
 .sike-left {
   background-image: url(./images/left_black.webp);
   background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .sike-right {
   background-image: url(./images/right_black.webp);
   background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 @media (prefers-color-scheme: dark) {
   .sike-left {
