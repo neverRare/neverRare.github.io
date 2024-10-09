@@ -26,6 +26,20 @@ h1 {
   margin-left: 40px;
   margin-right: 40px;
 }
+h1 > a {
+  color: #0057af;
+}
+h1 > a:visited {
+  color: #551a8b;
+}
+@media (prefers-color-scheme: dark) {
+  h1 > a {
+    color: #3197ff;
+  }
+  h1 > a:visited {
+    color: #b47de7;
+  }
+}
 body > a {
   color: inherit;
   text-decoration: none;
